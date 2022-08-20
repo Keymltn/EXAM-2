@@ -274,3 +274,45 @@ input:checked+.heckbox-form-span{
     height: 453.5px;
     background-image: url(../img_exam/Rectangle\ 8\ \(1\).png);
 }
+
+.section_advantages-boxes{
+    width: 76%;
+    padding-left: 146px;
+    height: 239px;
+    padding: 80px 0;
+    display: grid;
+    grid-template-columns: repeat(2, 447px);
+    grid-template-rows: repeat(2, 80px);
+    grid-row-gap: 62px;
+    grid-column-gap: 140px;
+}
+
+.section_advantages-box1{
+    // width: 447px;
+    // height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.section_advantages-box1-text{
+    width: 291px;
+    h2{
+        font-family: $fexo;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 135%;
+        color: #363738;
+        margin-bottom: 16px;
+    }
+
+    p{
+        font-family: $sans;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 150%;
+        color: #6B6B6C;
+    }
+}
