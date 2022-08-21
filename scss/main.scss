@@ -114,7 +114,11 @@ $sans: 'PT Sans';
     padding-left: 64px;
 }
 
-.section1-products_factory :nth-child(2){
+.section1-products_factory-teex{
+    margin-top: -15px;
+}
+
+.section1-products_factory-teex :first-child{
     font-family: $fexo;
     font-style: normal;
     font-weight: 600;
@@ -124,7 +128,7 @@ $sans: 'PT Sans';
     color: #363738;
 }
 
-.section1-products_factory :last-child{
+.section1-products_factory-teex :last-child{
     font-family: $sans;
     font-style: normal;
     font-weight: 400;
@@ -277,7 +281,6 @@ input:checked+.heckbox-form-span{
 
 .section_advantages-boxes{
     width: 76%;
-    padding-left: 115px;
     padding-top: 80px;
     height: 239px;
     display: grid;
@@ -827,20 +830,262 @@ video{
         margin-bottom: 130px;
     }
 
-    .main_section-products {
-        box-shadow: 0px 4px 20px rgb(0 0 0 / 15%);
-        border-radius: 20px;
+    .main_section-products{
         display: grid;
         grid-template-columns: 690px;
         grid-template-rows: repeat(3, 164px);
-        grid-row-gap: 16px;
-        padding: 40px 0 0 80px;
-        margin-top: -200px;
+        grid-row-gap: 69px;
+        border: none;
+        width: 0px;
+        height: 0;
+        box-shadow: none;
+    }
+
+    .b1 {
+        border-left: none;
+        padding-left: 0;
     }
 
 
     .section {
-        margin-bottom: 326px;
+        margin-bottom: 815px;
     }
+
+    .section_checkbox-text {
+        display: none;
+    }
+
+    .section_advantages-boxes {
+        width: 76%;
+        padding-left: 115px;
+        padding-top: 80px;
+        height: 239px;
+        display: grid;
+        grid-template-columns: repeat(1, 447px);
+        grid-template-rows: repeat(4, 80px);
+        grid-row-gap: 62px;
+        grid-column-gap: 140px;
+    }
+
+    .section_advantages {
+        margin-bottom: 292px;
+    }
+
+    .section_containers-text {
+        font-family: "PT Sans";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 150%;
+        color: #6b6b6c;
+        width: 73%;
+        margin-bottom: 56px;
+    }
+    
+.section_containers-boxes {
+    width: 100%;
+    height: 439px;
+    display: grid;
+    grid-template-columns: 690px;
+    grid-template-rows: repeat(3, 422px);
+    justify-content: space-between;
+    grid-row-gap: 32px;
 }
 
+    .section_containers-box1{
+        img{
+            width: 690px;
+            height: 247px;
+        }
+    }
+
+    .section_containers-box1-lch {
+        font-family: "Exo 2";
+        font-style: normal;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 135%;
+        color: #363738;
+        border-bottom: 3px solid #ffce50;
+        padding-bottom: 10px;
+        // margin-left: 321px;
+        margin-right: 569px;
+    }
+
+    .section_containers-box1 > h2 {
+        font-family: "Exo 2";
+        font-style: normal;
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 135%;
+        color: #363738;
+        padding-left: 32px;
+        padding-top: 24px;
+    }
+
+    .section_table-main {
+        width: 766px;
+        margin-left: -61px;
+        height: 917px;
+        display: block;
+    }
+
+    .section_containers {
+        margin-bottom: 966px;
+    }
+
+    .section_table-main-header-table{
+        width: 621px;
+        height: 660px;
+        margin-left: 39px;
+    }
+
+    .section_handshake-box1{
+        img{
+            display: none;
+        }
+    }
+
+    .section_handshake-boxes {
+        width: 100%;
+        height: 783px;
+        display: grid;
+        padding: 48px 0 0 30px;
+        grid-template-columns: repeat(1, 650px);
+        grid-template-rows: repeat(3, 225px);
+    }
+
+    .section_companies-table {
+        display: grid;
+        padding: 80px 0 0 90px;
+        grid-template-columns: repeat(2, 184px);
+        grid-template-rows: repeat(4, 183px);
+        grid-row-gap: 98px;
+        grid-column-gap: 148px;
+    }
+
+    .section_writers {
+        width: 100%;
+        height: 799px;
+        margin-bottom: 826px;
+    }
+
+    .ll01{
+        display: none;
+    }
+
+    .section_writers-boxes {
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(2, 330px);
+        grid-row-gap: 34px;
+        grid-column-gap: 29px;
+        grid-template-rows: repeat(2, 283px);
+    }
+
+    .section_writers-box1{
+        display: block;
+    }
+
+    .section_writers-box1-media {
+        width: 118px;
+        height: 23px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 9px;
+        margin-left: 19px;
+    }
+
+    .section_writers-box1-text {
+        width: 165px;
+        height: 117px;
+        text-align: center;
+    }
+
+    .section_contacts-phnum {
+        margin-bottom: 38px;
+    }
+
+    .section_why-truck {
+        background-image: url(../img_exam/truck.png);
+        position: absolute;
+        background-repeat: no-repeat;
+        right: 0;
+        width: 1079px;
+        height: 453px;
+        z-index: -1;
+    }
+
+    .section_contacts-passw {
+        width: 643px;
+        height: 383px;
+        background: #f9f9fb;
+        border-radius: 5px;
+        padding: 40px 0 0 40px;
+    }
+
+    .section_video-p {
+        font-family: "PT Sans";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 150%;
+        color: #6b6b6c;
+        padding: 32px 0 40px;
+        width: 76%;
+        margin-bottom: -133px;
+    }
+
+    .section1-products_factory{
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+    width: 641px;
+    margin-left: -84px;
+    padding: 17px 0 0 18px;
+    height: 164px;
+    background: #fff;
+    -webkit-box-shadow: 0px 4px 15px rgb(0 0 0 / 12%);
+    box-shadow: 0px 4px 15pxrgba(0,0,0,.12);
+    border-radius: 20px;
+        img{
+            margin-right: 32px;
+        }
+    }
+
+    .section_why-grtranse {
+        width: 708px;
+        background-repeat: no-repeat;
+        height: 453.5px;
+        background-image: url(../img_exam/Rectangle\ 8\ \(1\).png);
+    }
+    
+    .section_contacts {
+        width: 100%;
+        height: 504px;
+        margin-bottom: 455px;
+    }
+
+    .section_contacts-webs{
+        display: block;
+    }
+
+    .section_companies {
+        width: 100%;
+        height: 576px;
+        margin-bottom: 672px;
+    }
+
+    .section_table-main-header h3 {
+        font-family: "Exo 2";
+        font-style: normal;
+        font-weight: 600;
+        font-size: 48px;
+        line-height: 125%;
+        color: #fff;
+        width: 50%;
+        padding: 10px 5px 0 81px;
+    }
+
+}
